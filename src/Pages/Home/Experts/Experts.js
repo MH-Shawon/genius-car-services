@@ -25,8 +25,8 @@ const Experts = () => {
     
 
     return (
-        <div>
-            <h2 className='experts-title'>Our Experts</h2>
+        <div  id="experts" className='container'>
+            <h2 className='experts-title text-primary m-3'>Our Experts</h2>
             <div className="experts-container">
             {
                 experts.map(expert => <Expert
